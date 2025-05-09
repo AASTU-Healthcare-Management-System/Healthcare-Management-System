@@ -108,7 +108,7 @@ void selectDepartment() {
 }
 
 
-// Registers a new patient
+//  To register a new patient
 void registerPatient() {
     selectDepartment();  // Ask for department before registration
     clearScreen();
@@ -137,7 +137,7 @@ void registerPatient() {
     if(room==1){
          p.room_number= assign_room();}
          else {p.room_number=" NO ROOM RESERVED";}
-    p.status = "In Treatment"; // Default status
+    p.status = "In Treatment"; // default  status
     p.date = appointmentDate();
 
 
